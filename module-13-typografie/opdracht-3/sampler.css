@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 24px;
+  background-color: #f4f4f4;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.kaart {
+  background-color: #ffffff;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.kaart small {
+  display: block;
+  color: #888888;
+  font-family: Consolas, 'Courier New', monospace;
+}
+
+.kaart p {
+  margin: 8px 0 0;
+}
+
+.groot p { font-size: 28px; }
+.vet p { font-weight: bold; }
+.schuin p { font-style: italic; }
+.onderstreept p { text-decoration: underline; }
+.hoofdletters p { text-transform: uppercase; letter-spacing: 3px; }
+.regelhoogte p { line-height: 2.5; }
