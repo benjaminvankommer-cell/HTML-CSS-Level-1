@@ -1,0 +1,23 @@
+/* Raleway is het standaardlettertype; standaard font-size 1,5 keer zo groot als normaal */
+body {
+  font-family: 'Raleway', Arial, sans-serif;
+  font-size: 1.5em;
+}
+
+/* h1: Lora, 2 keer de standaard font-size, onderstreept */
+h1 {
+  font-family: 'Lora', Georgia, serif;
+  font-size: 2em;
+  text-decoration: underline;
+}
+
+/* de letter "L": 2 keer de standaard font-size en 3px letter-spacing */
+span {
+  font-size: 2em;
+  letter-spacing: 3px;
+}
+
+/* lijstitems beginnen met een hoofdletter */
+li {
+  text-transform: capitalize;
+}
