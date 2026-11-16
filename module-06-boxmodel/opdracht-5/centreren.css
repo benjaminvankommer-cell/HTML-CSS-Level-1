@@ -1,0 +1,24 @@
+.parent {
+  width: 350px;
+  height: 350px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.box:nth-child(1) { background-color: #d9534f; }
+.box:nth-child(2) { background-color: #f0ad4e; }
+.box:nth-child(3) { background-color: #5cb85c; }
+.box:nth-child(4) { background-color: #337ab7; }
