@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+  width: 120px;
+  height: 50px;
+  padding: 10px;
+  color: white;
+}
+
+.rood { background-color: #d9534f; }
+.groen { background-color: #5cb85c; }
+.blauw { background-color: #337ab7; }
+
+.blok { display: block; }
+.inline { display: inline; }
+.inline-blok { display: inline-block; }
+
+/*
+  Vraag 1: Bij welke waarde worden width en height genegeerd?
+  Antwoord: bij display: inline. De elementen zijn dan alleen zo groot als hun tekst.
+
+  Vraag 2: Bij welke waarde staan elementen naast elkaar én houden ze rekening met width?
+  Antwoord: bij display: inline-block.
+*/
