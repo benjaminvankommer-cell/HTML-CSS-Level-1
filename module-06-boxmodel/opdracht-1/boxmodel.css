@@ -1,0 +1,39 @@
+div {
+  text-align: center;
+  border: 1px solid black;
+}
+
+.div1 {
+  width: 50%;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: #ff0000;
+}
+
+.div2 {
+  width: 50%;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: #00ff00;
+}
+
+.div3 {
+  width: 50%;
+  margin: 10px auto;
+  padding: 30px;
+  background-color: #0000ff;
+  color: white;
+}
+
+.div4 {
+  width: 50%;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: white;
+  color: black;
+}
+
+/*
+  In de inspector bij div 4: margin 50px rondom (links en rechts berekend door auto),
+  padding 40px rondom. Dat klopt met de CSS.
+*/
